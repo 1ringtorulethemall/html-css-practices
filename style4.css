@@ -1,0 +1,24 @@
+/*div-two est dans div-one et en prend 50px*/
+/*#div-one{
+  background-color: black;
+  height: 100px
+}
+#div-two{
+  background-color: rgb(127, 209, 62);
+  height: 50px
+}
+#div-three{
+  background-color: rgb(26, 16, 205);
+  height: 100px
+}*/
+
+#div-one{
+  background-color: black;
+  color: rgb(255, 255, 255);
+  /*padding:200px;*/
+  padding:  100px 100px 100px 0px;/*top, right, bottom, left*/
+  border-style: solid;
+  border-width: 50px;
+  border-color: rgb(223, 227, 32);
+  margin: 200px;
+}

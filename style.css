@@ -1,0 +1,41 @@
+
+p {  /* p est un selecteur = on veut selectionner tous les p*/
+  color: aliceblue; /* = textColor en css*/
+  font-size: 17px;
+}
+
+body{
+  /*background-color: #71259d;*/
+  /*background-color: rgb(50, 221, 87);*/
+
+  /*background-image: url("imgs/landing.png");*/
+  /*background-image: url("imgs/img_css3.png");*/ /* l'image trop petite est répétée*/
+  /*background-repeat*/ : no-repeat;
+
+  background:  green url("imgs/img_css3.png") no-repeat;
+}
+div{
+  background-color: aquamarine;
+  color: blue;
+}
+#cssExample{ /* Tous les ids doivent commencer par un # pour la référence = lien vers une div spécifique */
+ color: blueviolet;
+}
+
+/* Pour une classe
+toutes les instances qui ont la classe red sont affectées*/
+/*.red{
+  color : red;
+}
+*/
+/* seules les instances h1 qui ont la classe red sont affectées*/
+/*h1.red{
+  color : red;
+}
+*/
+
+/*On peut aussi grouper différents sélecteurs*/
+h1, h2, p {
+  color : red;
+  text-align: center;
+}
